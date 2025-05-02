@@ -1,0 +1,29 @@
+C:\Users\eXpert\Desktop\WAD>git init
+Initialized empty Git repository in C:/Users/eXpert/Desktop/WAD/.git/
+
+C:\Users\eXpert\Desktop\WAD>git remote add origin https://github.com/HarshCraft/WAD_Practical.git
+
+WAD Cheat no.3
+3.Create a version control account on GitHub and use Git commands to create a repository and push your code to GitHub. 
+
+C:\Users\eXpert\Desktop\WAD>git add .
+
+C:\Users\eXpert\Desktop\WAD>git commit -m "Initial commit for WAD practical"
+[master (root-commit) 97aa776] Initial commit for WAD practical
+ 4 files changed, 353 insertions(+)
+ create mode 100644 Exam management system/Exam Dashboard.html
+ create mode 100644 Exam management system/college_Dashboard.html
+ create mode 100644 user registration data (2,8)/register.html
+ create mode 100644 user registration data (2,8)/users.html
+
+C:\Users\eXpert\Desktop\WAD>git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 3.18 KiB | 361.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/HarshCraft/WAD_Practical.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
